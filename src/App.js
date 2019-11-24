@@ -6,9 +6,7 @@ import NuevaCita from './components/NuevaCita'
 
 class App extends Component {
 
-  state = {
-
-  }
+  state = {}
 
   render() {
     return (
