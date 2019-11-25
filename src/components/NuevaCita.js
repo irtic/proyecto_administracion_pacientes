@@ -61,9 +61,9 @@ class NuevaCita extends Component {
 
         //colocar en el state el setInicial
 
-        this.setState = {
+        this.setState({
             ...stateInicial
-        }
+        })  
     }
 
     render() {
