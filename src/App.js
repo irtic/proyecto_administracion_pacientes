@@ -3,6 +3,7 @@ import './bootstrap.min.css'
 
 import Header from './components/Header'
 import NuevaCita from './components/NuevaCita'
+import ListasCitas from './components/ListaCitas'
 
 class App extends Component {
 
@@ -32,6 +33,11 @@ class App extends Component {
                 <div className="col-md-10 mx-auto">
                     <NuevaCita 
                        crearNuevaCita = {this.crearNuevaCita}
+                    />
+                </div>
+                <div className="mt-5 col-md-10 mx-auto">
+                    <ListasCitas 
+                        citas = {this.state.citas}
                     />
                 </div>
             </div>
