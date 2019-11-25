@@ -1,5 +1,5 @@
 import React from 'react';
-
+import PropTypes from 'prop-types';
 const Citas = ({cita, eliminarCita }) => (
     
     <div className="media mt-3">
@@ -21,5 +21,10 @@ const Citas = ({cita, eliminarCita }) => (
     </div>
     
 );
+
+Citas.propTypes = {
+    cita : PropTypes.object.isRequired,
+    eliminarCita : PropTypes.func.isRequired
+}
 
 export default Citas;

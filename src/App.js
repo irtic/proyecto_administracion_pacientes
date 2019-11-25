@@ -19,7 +19,6 @@ class App extends Component {
 
         this.setState({
             citas : JSON.parse(citasLS)
-
         })
     }
 
